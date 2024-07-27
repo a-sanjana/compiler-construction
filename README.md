@@ -1,6 +1,6 @@
 # compiler-construction
 
-Compilation intructions for ast and symbol table:
+## Compilation intructions for ast and symbol table:
 
 $ lex pascal.l
 
@@ -16,7 +16,7 @@ $ gcc lex.yy.c y.tab.c ast.o sym.o output.o -o parser -ll -lm\
 
 $ ./parser < input_filename.pas
 
-Compilation intructions for 3AC code:
+## Compilation intructions for 3AC code:
 
 $ lex pascal.l
 
@@ -26,7 +26,7 @@ $ gcc lex.yy.c y.tab.c -o parser -ll
 
 $ ./parser < input_filename.pas
 
-Compilation intructions for output:
+## Compilation intructions for output:
 
 $ lex pascal.l
 
